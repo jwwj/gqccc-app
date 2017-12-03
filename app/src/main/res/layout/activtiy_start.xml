@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/index_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+          <include layout="@layout/activity_start_head"/>
+          <include layout="@layout/activity_start_body"/>
+        <include layout="@layout/activity_start_foot"/>
+
+</LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/_20dp"
+    android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/_300dp"
+            android:layout_height="@dimen/_120dp"
+            android:src="@drawable/start_title"/>
+
+
+    <FrameLayout
+        android:layout_width="@dimen/_320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_18dp">
+        <ImageView
+            android:layout_width="@dimen/_230dp"
+            android:layout_height="@dimen/_230dp"
+            android:layout_gravity="center"
+            android:src="@drawable/game_center"/>
+        <ImageView
+            android:layout_width="@dimen/_200dp"
+            android:layout_height="@dimen/_200dp"
+            android:src="@drawable/game_disc"
+            android:layout_gravity="center" />
+        <ImageView
+            android:layout_width="@dimen/_105dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/index_start"
+            android:layout_gravity="center" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_140dp"
+            android:layout_gravity="end"
+            android:src="@drawable/index_pin" />
+    </FrameLayout>
+
+</LinearLayout>

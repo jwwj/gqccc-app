@@ -1,0 +1,108 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* AndroidManifest.xml
+* LICENSE
+* pom.xml
+* res\
+* res\anim\
+* res\anim\slide_in_from_bottom.xml
+* res\anim\slide_in_from_top.xml
+* res\anim\slide_out_to_bottom.xml
+* res\anim\slide_out_to_top.xml
+* res\drawable-hdpi\
+* res\drawable-hdpi\default_ptr_flip.png
+* res\drawable-hdpi\default_ptr_rotate.png
+* res\drawable-hdpi\indicator_arrow.png
+* res\drawable-mdpi\
+* res\drawable-mdpi\default_ptr_flip.png
+* res\drawable-mdpi\default_ptr_rotate.png
+* res\drawable-mdpi\indicator_arrow.png
+* res\drawable-xhdpi\
+* res\drawable-xhdpi\default_ptr_flip.png
+* res\drawable-xhdpi\default_ptr_rotate.png
+* res\drawable-xhdpi\indicator_arrow.png
+* res\drawable\
+* res\drawable\indicator_bg_bottom.xml
+* res\drawable\indicator_bg_top.xml
+* res\layout\
+* res\layout\pull_to_refresh_header_horizontal.xml
+* res\layout\pull_to_refresh_header_vertical.xml
+* res\values-ar\
+* res\values-ar\pull_refresh_strings.xml
+* res\values-cs\
+* res\values-cs\pull_refresh_strings.xml
+* res\values-de\
+* res\values-de\pull_refresh_strings.xml
+* res\values-es\
+* res\values-es\pull_refresh_strings.xml
+* res\values-fi\
+* res\values-fi\pull_refresh_strings.xml
+* res\values-fr\
+* res\values-fr\pull_refresh_strings.xml
+* res\values-he\
+* res\values-he\pull_refresh_strings.xml
+* res\values-it\
+* res\values-it\pull_refresh_strings.xml
+* res\values-iw\
+* res\values-iw\pull_refresh_strings.xml
+* res\values-ja\
+* res\values-ja\pull_refresh_strings.xml
+* res\values-ko\
+* res\values-ko\pull_refresh_strings.xml
+* res\values-nl\
+* res\values-nl\pull_refresh_strings.xml
+* res\values-pl\
+* res\values-pl\pull_refresh_strings.xml
+* res\values-pt-rBR\
+* res\values-pt-rBR\pull_refresh_strings.xml
+* res\values-pt\
+* res\values-pt\pull_refresh_strings.xml
+* res\values-ro\
+* res\values-ro\pull_refresh_strings.xml
+* res\values-ru\
+* res\values-ru\pull_refresh_strings.xml
+* res\values-zh\
+* res\values-zh\pull_refresh_strings.xml
+* res\values\
+* res\values\attrs.xml
+* res\values\dimens.xml
+* res\values\ids.xml
+* res\values\pull_refresh_strings.xml
+* target\
+* target\classes\
+* target\classes\META-INF\
+* target\classes\META-INF\MANIFEST.MF
+* target\classes\META-INF\maven\
+* target\classes\META-INF\maven\com.github.chrisbanes.pulltorefresh\
+* target\classes\META-INF\maven\com.github.chrisbanes.pulltorefresh\library\
+* target\classes\META-INF\maven\com.github.chrisbanes.pulltorefresh\library\pom.properties
+* target\classes\META-INF\maven\com.github.chrisbanes.pulltorefresh\library\pom.xml
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* src\ => library\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

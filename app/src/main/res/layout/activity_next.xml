@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/next_activity_ll"
+    android:background="#88323232"  >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_100dp">
+<ImageView
+    android:layout_width="@dimen/_50dp"
+    android:layout_height="@dimen/_50dp"
+    android:src="@drawable/index_medal"
+    android:layout_marginRight="@dimen/_20dp"/>
+        <TextView
+            android:id="@+id/next_activity_tx_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="回答正确"
+            android:textSize="40sp"/>
+    </LinearLayout>
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/_40dp">
+    <ImageView
+        android:layout_width="@dimen/_50dp"
+        android:layout_height="@dimen/_50dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/game_level_current"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/next_activity_tv_level"
+       android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:text="1"/>
+</FrameLayout>
+    <TextView
+        android:id="@+id/next_activity_tv_answer"
+        android:layout_marginTop="@dimen/_30dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="征服"
+        android:textSize="30sp" />
+    <LinearLayout
+        android:layout_marginTop="@dimen/_30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+       <ImageView
+           android:layout_marginRight="@dimen/_30dp"
+           android:layout_width="@dimen/_30dp"
+           android:layout_height="@dimen/_30dp"
+           android:src="@drawable/game_coin_icon"/>
+        <TextView
+            android:id="@+id/next_activity_tx_addcoin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="×   100"
+            android:textSize="25sp"/>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_20dp">
+    <ImageView
+        android:id="@+id/next_activity_im_next"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/_140dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pass_next_selctor"/>
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/next_activity_im_share"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/_140dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pass_share_selctor"/>
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/next_activity_im_back"
+        android:layout_gravity="center"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pass_back_selector"/>
+    </FrameLayout>
+</LinearLayout>

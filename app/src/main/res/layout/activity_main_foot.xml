@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:layout_marginTop="@dimen/_12dp">
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <ImageView
+           android:layout_width="@dimen/_37dp"
+           android:layout_height="@dimen/_37dp"
+           android:src="@mipmap/app_icon"
+           android:layout_gravity="end"
+           android:layout_marginRight="@dimen/_20dp"
+           android:layout_marginTop="@dimen/_10dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/activity_foot_ll">
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="答案一"-->
+            <!--android:background="@drawable/game_wordblank"-->
+            <!--android:textColor="@color/white"/>-->
+    </LinearLayout>
+   </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_5dp"
+        android:layout_marginTop="@dimen/_2dp"
+        android:layout_marginLeft="@dimen/_20dp"
+        android:layout_marginRight="@dimen/_20dp"
+        android:background="@drawable/game_line"/>
+    <com.guessmusic.views.MyGridView
+       android:layout_margin="@dimen/_15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="8"
+        android:verticalSpacing="@dimen/_5dp"
+        android:horizontalSpacing="@dimen/_5dp"
+        android:id="@+id/activity_main_foot_gv">
+    </com.guessmusic.views.MyGridView>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/_20dp"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="@dimen/_270dp"
+            android:layout_height="@dimen/_35dp"
+            android:src="@drawable/game_title"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="歌曲"
+            android:textColor="@color/white"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="@dimen/_320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_18dp">
+        <ImageView
+            android:layout_width="@dimen/_230dp"
+            android:layout_height="@dimen/_230dp"
+            android:layout_gravity="center"
+            android:src="@drawable/game_center"/>
+            <ImageView
+                android:layout_width="@dimen/_200dp"
+                android:layout_height="@dimen/_200dp"
+                android:src="@drawable/game_disc"
+                android:layout_gravity="center"
+                android:id="@+id/activity_main_body_iv_cd"/>
+            <ImageView
+                android:layout_width="@dimen/_105dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/index_start"
+                android:layout_gravity="center"
+                android:id="@+id/activity_main_body_iv_play"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_140dp"
+                android:layout_gravity="end"
+                android:src="@drawable/index_pin"
+                android:id="@+id/activity_main_body_iv_point"/>
+    </FrameLayout>
+
+</LinearLayout>

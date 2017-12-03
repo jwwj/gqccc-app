@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.guessmusic.views.LevelGridView
+        android:layout_margin="@dimen/_15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="4"
+        android:verticalSpacing="@dimen/_5dp"
+        android:horizontalSpacing="@dimen/_5dp"
+        android:id="@+id/activity_level_gv"
+        android:scrollbars="none" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:text="上滑获取更多关卡"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        />
+</FrameLayout>
